@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>Estudiantes</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_gian.css" />
   </head>
   <body>
+    <div>
     <h1>Lista de Estudiantes</h1>
     <button id="loadButton">Cargar Estudiantes</button>
     <table id="studentsTable">
@@ -17,6 +18,17 @@
       </thead>
       <tbody></tbody>
     </table>
+
+    <h2>Agregar nuevo estudiante</h2>
+    <button id="addStudentButton">Agregar Estudiante</button>
+    <input type="text" id="newStudentName" placeholder="Nombre del estudiante" />
+
+
+    <h2>Saludo</h2>
+    <button id="greetButton">Saludarme</button>
+    <input type="text" id="greetInput" placeholder="Escribe tu nombre" />
+    <p id="greetResult"></p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
