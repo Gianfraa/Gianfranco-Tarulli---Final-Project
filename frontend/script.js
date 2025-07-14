@@ -1,5 +1,4 @@
-const { Script } = require("vm");
-
+// Lista de estudiantes
 document.getElementById("loadButton").addEventListener("click", async () => {
   const response = await fetch("/api/students");
   const students = await response.json();
